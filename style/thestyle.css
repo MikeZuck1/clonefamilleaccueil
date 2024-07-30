@@ -1,0 +1,153 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #000;
+  /* color: rgba(255, 255, 255, 0.87);  */
+  /* background-color: #242424;  */
+  background: #ffffff;
+  --nav-bg-color: #002155;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* NAVIGATION SESSION */
+
+.menu_bar li {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+nav {
+  height: 3rem;
+  background: var(--nav-bg-color);
+  color: rgba(255, 255, 255, 0.87);
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+/* CONTENT SECTION */
+
+.content {
+  width: 50rem;
+  height: 100%;
+  margin-left: 6rem;
+}
+
+.content h1 {
+  font-size: 3rem;
+}
+
+.question_section h2 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.question_section img {
+  width: 25rem;
+}
+
+.center__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.tomato__important__link {
+  text-decoration: none;
+  color: tomato;
+}
+
+/* TABLE SECTION */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.left-column {
+  width: 40%;
+}
+
+th {
+  border: 1px solid #002155;
+  padding: 0.9rem 0 2rem 0;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #002155;
+  padding: 0.4rem 0.8rem 2rem 0.7rem;
+  text-align: center;
+}
+
+/* MINIMUM AGE PARAGRAPH SECTION*/
+
+.minimum__age_paragraph h2 {
+  text-align: left;
+}
+
+/* MINIMUM AGE PARAGRAPH SECTION */
+/* TITRE "Quelle est la rémunération d’une famille d’accueil ?" */
+
+.title__remuneration {
+  width: 45rem;
+}
+
+/* H2 OF EACH SECTION */
+
+.remuneration__famille h2 {
+  text-align: left;
+}
+
+.title__familles__heureuses h2 {
+  text-align: left;
+}
+
+.jeux_dargent_section h2 {
+  text-align: left;
+}
+
+.title__fulgurant__essor h2 {
+  text-align: left;
+}
+
+.title__envie__de__vie h2 {
+  text-align: left;
+}
+
+/* SECTION EN FIN DE VIE */
+
+.enfin__de_vie {
+  margin-bottom: 7rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  background: #002155;
+}
+
+.footer__content {
+  height: 20rem;
+}
+
+.footer__link {
+  margin: 1.8rem;
+  margin-left: 6rem;
+  text-decoration: none;
+  color: #ffffff;
+}
